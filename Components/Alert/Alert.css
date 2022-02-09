@@ -1,0 +1,36 @@
+
+.alert{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: clamp(18.75rem,100%,31.25rem);
+    padding: 0.125rem 0.75rem;
+    border-radius:0.625rem;
+    box-shadow: 0px 0px 0.5rem var(--lightBlue);
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.close{
+    font-size: 2rem;
+
+    cursor: pointer;
+}
+
+.alert-primary{
+    background-color: var(--primary);
+}
+
+.alert-success{
+    background-color:var(--success);
+}
+
+.alert-danger{
+    background-color:var(--danger);
+}
+
+.alert-warning{
+    background-color:var(--warning);
+    color:var(--black);
+}
+
