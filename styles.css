@@ -1,0 +1,82 @@
+@import url(./Components/Main.css);
+
+.landing-page{
+    display: flex;
+    margin-top: 18rem;
+    padding: 0rem 2rem;
+    
+    
+}
+
+.landing-page-contents{
+    display: block;
+    width: 60%;
+}
+
+.landing-page-title{
+    color: var(--primary);
+}
+
+.landing-page-btn{
+    text-decoration: none;
+    color: var(--primary);
+    border: solid 2px var(--primary);
+    display: block;
+    width: fit-content;
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;    
+    font-weight:600;
+    font-size: 1rem;
+    border-radius:  0.375rem;
+    
+
+}
+
+
+.landing-page-btn:hover{
+    color: var(--whiteSmoke);
+    background-color: var(--primary);
+}   
+
+
+
+.landing-page-hero{
+    margin-left: auto;
+}
+
+.hero-img{
+    width: 500px;
+    max-width: 80%;
+    display: block;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 799px) {
+
+    .landing-page{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .landing-page-contents{
+        margin-top: 3rem;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+
+    .landing-page-button{
+        margin-top: 1rem;
+    }
+
+    .landing-page-hero{
+        margin-left: unset;
+        margin-inline: auto ;
+    }
+
+    .landing-page-btn{
+        margin-inline: auto ;
+    }
+  
+  }
