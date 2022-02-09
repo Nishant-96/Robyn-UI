@@ -1,0 +1,38 @@
+
+.avatar{
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: 0rem 1rem;
+    overflow: hidden;
+    
+}
+
+.avatar-image{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.avatar-circle{
+    border-radius: 50%;
+}
+
+.avatar-square{
+    border-radius: 10%;
+}
+
+.avatar-sml{
+    width: 3.5rem;
+    height:3.5rem;
+}
+
+.avatar-mdm{
+    width:4.5rem;
+    height: 4.5rem;
+}
+
+.avatar-lrge{
+    width:6rem;
+    height: 6rem;
+}
