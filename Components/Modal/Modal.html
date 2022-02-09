@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/monokai.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../Images/Robynfavicon-32x32.png">
+    <link rel="stylesheet" href='../Main.css' />
+
+    <title>Robyn UI | Modal</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo"><a href="#"><img class="logo" src="../../Images/robynLogo.png"></a>
+        </div>
+        <h1>Robyn</h1>
+        <nav class="navigation-header">
+            <ul class="header-right">
+                <li class="navigation-menu"><a href="../Main.html" class="nav-text">Documentation</a></li>
+                <li class="navigation-menu"><a href="https://github.com/Nishant-96/Robyn-UI" class="nav-text">Github</a>
+                </li>
+                <li class="navigation-menu"><a href="#" class="nav-text">Releases</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="content-box">
+
+        <aside class="sidebar-nav">
+            <a class="sidebar-nav-menu nav-bottom-underline" href="../Main.html">Get Started</a>
+            <a class="sidebar-nav-menu" href="../Colors/colors.html">Colors</a>
+            <a class="sidebar-nav-menu" href="../Typography/Typography.html">Typography</a>
+            <a class="sidebar-nav-menu nav-bottom-underline" href="../Alert/Alert.html">Components</a>
+            <a class="sidebar-nav-menu" href="../Alert/Alert.html">Alert</a>
+            <a class="sidebar-nav-menu" href="../Avatar/Avatar.html">Avatar</a>
+            <a class="sidebar-nav-menu" href="../Badge/Badge.html">Badge</a>
+            <a class="sidebar-nav-menu" href="../Buttons/Button.html">Button</a>
+            <a class="sidebar-nav-menu" href="../Card/Card.html">Card</a>
+            <a class="sidebar-nav-menu" href="../Image/Image.html">Image</a>
+            <a class="sidebar-nav-menu" href="../Input/Input.html">Input</a>
+            <a class="sidebar-nav-menu" href="../List/List.html">Lists</a>
+            <a class="sidebar-nav-menu sidebar-nav-active" href="../Modal/Modal.html">Modal</a>
+            <a class="sidebar-nav-menu" href="../Navigation/Navigation.html">Navigation</a>
+            <a class="sidebar-nav-menu" href="../Rating/Rating.html">Rating</a>
+            <a class="sidebar-nav-menu" href="../Toast/Toast.html">Toast</a>
+            <a class="sidebar-nav-menu" href="../Slider/Slider.html">Slider</a>
+            <a class="sidebar-nav-menu" href="../Grid/Grid.html">Simplified Grid</a>
+        </aside>
+
+        <section class="container">
+            <div class="container-box">
+                <div class="container-component">
+                    <div class="component-title">Modal</div>
+                    <div class="component-sub-heading">A Modal is a message box that is displayed on top of your screen.
+                        Modals put an overlay on the screen; therefore, they take visual precedence over all the other
+                        elements. Here we have used to buttons which are similar to our button components along with
+                        with the classes 'modal modal-title' as shown below.</div>
+
+                    <div class="container-display">
+                        <div class="modal">
+                            <h3 class="modal-title">Modal Title</h3>
+                            <p>Modal Body Goes Here</p>
+                            <div class="modal-btn">
+                                <button class="btn btn-primary">Save Changes</button>
+                                <button class="btn btn-outlined btn-outlined-danger">Close</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <pre class="container-snippet">
+                        <code class="language-html">                   
+
+    &lt;div class="modal"&gt;
+        &lt;h3 class="modal-title"&gt;Modal Title&lt;/h3&gt;
+        &lt;p>Modal Body Goes Here&lt;/p&gt;
+        &lt;div class="modal-btn"&gt;
+                &lt;button class="btn btn-primary"&gt;Save Changes&lt;/button&gt;
+                &lt;button class="btn btn-outlined btn-outlined-danger">Close&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+                        </code>
+                    </pre>
+
+
+                    <div class="container-display">
+                        <div class="modal">
+                            <h3 class="modal-title">Deactivate Pop Up</h3>
+                            <p>Are you sure you want to deactivate your account ?</p>
+                            <div class="modal-btn">
+                                <button class="btn btn-danger">Deactivate</button>
+                                <button class="btn btn-outlined btn-outlined-primary">Go Back</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <pre class="container-snippet">
+                        <code class="language-html ">
+    &lt;div class="modal"&gt;
+        &lt;h3 class="modal-title"&gt;Modal Title&lt;/h3&gt;
+        &lt;p>Modal Body Goes Here&lt;/p&gt;
+        &lt;div class="modal-btn"&gt;
+                &lt;button class="btn btn-primary"&gt;Save Changes&lt;/button&gt;
+                &lt;button class="btn btn-outlined btn-outlined-danger">Close&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+                            
+                        </code>
+                    </pre>
+
+                    <div class="footer-action-button">
+                        <button class="action-button"><a class="footer-floating-btn" href="../List/List.html"><i
+                                    class="fa fa-arrow-left" aria-hidden="true"></i>
+                            </a>
+                        </button>
+
+                        <button class="action-button"><a class="footer-floating-btn" href="../Navigation/Navigation.html"><i
+                                    class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </a></button>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+.nav-box{
+    display: flex;
+    justify-content: center;
+    background-color:var(--primary);
+    padding: 10px;
+    flex-wrap:wrap;
+    overflow: hidden;
+ }
+
+ .nav-contents{
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 10px;
+    cursor: pointer;
+    margin: 0 16px;
+    border-radius: 5px;
+    border: solid 2px var(--white);
+    color: var(--white);
+ }
+
+ .dropdown{
+     padding: 1rem;
+     font-size: 20px;
+ }
+
+ .nav-contents:hover{
+     background-color:var(--mainColor);
+     color:var(--black);
+ }
+
+ .hamburger{
+     color: var(--white);
+     cursor: pointer;
+     margin: auto 0rem;
+ }
+
+ 
