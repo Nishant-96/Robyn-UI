@@ -1,0 +1,81 @@
+
+.icon-btn{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:50px;
+    height:50px;
+    color: var(--black);
+    background-color:var(--whiteSmoke);
+    border:solid 0.5px;
+    border-radius: 50%;
+}
+
+
+
+.badge{
+    position: absolute;
+    width: 25px;
+    height:25px;
+    border-radius: 50%;
+    color:var(--white);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.icon-btn-pos{
+    top: -8px;
+    right:-8px;
+}
+
+
+.badge-av{
+    position: relative;
+    width: fit-content;
+
+}
+
+.profile-av{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    border:solid 0.2px;
+
+}
+
+.profile-av-pos{
+    top: -5px;
+    right: -5px;
+    width: 30px;
+    height:30px;
+}
+
+
+.icon-btn:hover{
+    cursor: pointer;
+}
+
+.icon-btn:active{
+    background-color:var(--primary);
+}   
+
+.badge-primary{
+    background-color:var(--primary);
+}
+
+.badge-on{
+    background-color:var(--success);
+}
+
+.badge-off{
+    background-color:var(--lightBlue);
+}
+
+.badge-dnd{
+    background-color:var(--red);
+}
+
+
