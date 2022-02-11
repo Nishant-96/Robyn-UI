@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/monokai.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../Images/Robynfavicon-32x32.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href='./card.css'>
+    <link rel="stylesheet" href='../Main.css' />
+
+    <title>Robyn UI | Card</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo"><a href="../../index.html"><img class="logo" src="../../Images/robynLogo.png"></a>
+        </div>
+        <h1>Robyn</h1>
+        <nav class="navigation-header">
+            <ul class="header-right">
+                <li class="navigation-menu"><a href="../Main.html" class="nav-text">Documentation</a></li>
+                <li class="navigation-menu"><a href="https://github.com/Nishant-96/Robyn-UI" class="nav-text">Github</a>
+                </li>
+                <li class="navigation-menu"><a href="#" class="nav-text">Releases</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="content-box">
+
+        <aside class="sidebar-nav">
+            <a class="sidebar-nav-menu nav-bottom-underline" href="../Main.html">Get Started</a>
+            <a class="sidebar-nav-menu" href="../Colors/colors.html">Colors</a>
+            <a class="sidebar-nav-menu" href="../Typography/Typography.html">Typography</a>
+            <a class="sidebar-nav-menu nav-bottom-underline" href="../Alert/Alert.html">Components</a>
+            <a class="sidebar-nav-menu" href="../Alert/Alert.html">Alert</a>
+            <a class="sidebar-nav-menu" href="../Avatar/Avatar.html">Avatar</a>
+            <a class="sidebar-nav-menu" href="../Badge/Badge.html">Badge</a>
+            <a class="sidebar-nav-menu" href="../Buttons/Button.html">Button</a>
+            <a class="sidebar-nav-menu sidebar-nav-active" href="../Card/Card.html">Card</a>
+            <a class="sidebar-nav-menu" href="../Image/Image.html">Image</a>
+            <a class="sidebar-nav-menu" href="../Input/Input.html">Input</a>
+            <a class="sidebar-nav-menu" href="../List/List.html">Lists</a>
+            <a class="sidebar-nav-menu" href="../Modal/Modal.html">Modal</a>
+            <a class="sidebar-nav-menu" href="../Navigation/Navigation.html">Navigation</a>
+            <a class="sidebar-nav-menu" href="../Rating/Rating.html">Rating</a>
+            <a class="sidebar-nav-menu" href="../Toast/Toast.html">Toast</a>
+            <a class="sidebar-nav-menu" href="../Slider/Slider.html">Slider</a>
+            <a class="sidebar-nav-menu" href="../Grid/Grid.html">Simplified Grid</a>
+        </aside>
+
+        <section class="container">
+            <div class="container-box">
+                <div class="container-component">
+                    <div class="component-title">Cards</div>
+                    <div class="component-sub-heading">The card component is used to group various pieces of content
+                        into a container which can be used throughout your website. They should be easy to scan for
+                        relevant and actionable information. Elements, like text and images, should be placed on them in
+                        a way that clearly indicates hierarchy. </div>
+                    <div class="border-underline"></div>
+
+
+                    <div class="component-title">Card With Text</div>
+                    <div class="component-sub-heading">This is an simple card with an title and small description. To
+                        use this you need to use two classes 'card' for the basic layout and 'card-title' for the
+                        heading.</div>
+                    <div class="container-display">
+
+                        <div class="card">
+
+                            <h3 class='card-title'>Card Heading</h3>
+
+                            <div>Card Sub Heading</div>
+                            <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <pre class="container-snippet">
+                        <code class="language-html">
+                            
+    &lt;div class="card"&gt;
+        
+        &lt;h3 class='card-title' &gt;Card Heading&lt;/h3&gt;
+                            
+        &lt;div>Card Sub Heading&lt;/div&gt;
+       &lt;p&gt;Some description &lt;/p&gt;
+                            
+    &lt;/div&gt;
+                          
+                        </code>
+                    </pre>
+
+                    <div class="border-underline"></div>
+
+                    <div class="component-title">Card With Dismiss</div>
+                    <div class="component-sub-heading">It's basically a simple card added with an an icon which closes
+                        the card; needs to be given when we want the card to be dismissible. Here we basically add two
+                        more class in the above card example 'card-dismiss-header' and 'card-close'</div>
+
+                    <div class="container-display">
+
+                        <div class="card">
+                            <div class="card-dismiss-header">
+                                <h3 class='card-title'>Card Heading</h3>
+                                <a class="card-close close">&times;</a>
+                            </div>
+                            <div>Card Sub Heading</div>
+                            <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <pre class="container-snippet">
+                        <code class="language-html ">
+                            
+    &lt;div class="card"&gt;
+        &lt;div  class="card-dismiss-header"&gt;
+            &lt;h3 class='card-title' &gt;Card Heading&lt;/h3&gt;
+            &lt;a class="card-close close"&gt;&times;&gt;/a&gt;
+        &lt;/div&gt;
+                            
+                                                
+        &lt;div>Card Sub Heading&lt;/div&gt;
+        &lt;p&gt;Some description &lt;/p&gt;
+                                                
+    &lt;/div&gt;
+
+
+                        </code>
+                    </pre>
+
+                    <div class="border-underline"></div>
+
+                    <div class="component-title">Card With Shadow</div>
+                    <div class="component-sub-heading">This is basically the card shown in the above example where we
+                        simply add an shadow by using the class 'card-shadow'. </div>
+
+                    <div class="container-display">
+
+                        <div class="card card-shadow">
+                            <div class="card-dismiss-header">
+                                <h3 class='card-title'>Card Heading</h3>
+                                <a class="card-close close">&times;</a>
+                            </div>
+                            <div>Card Sub Heading</div>
+                            <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <pre class="container-snippet">
+                        <code class="language-html ">
+                            
+    &lt;div class="card card-shadow"&gt;
+        &lt;div  class="card-dismiss-header"&gt;
+            &lt;h3 class='card-title' &gt;Card Heading&lt;/h3&gt;
+            &lt;a class="card-close close"&gt;&times;&gt;/a&gt;
+        &lt;/div&gt;
+                                                
+                                                                    
+        &lt;div>Card Sub Heading&lt;/div&gt;
+        &lt;p&gt;Some description &lt;/p&gt;
+                                                                    
+    &lt;/div&gt;
+
+                        </code>
+                    </pre>
+
+                    <div class="border-underline"></div>
+
+                    <div class="component-title">Product Card</div>
+                    <div class="component-sub-heading">This is an example of product card used on the e-com sites.
+                    </div>
+
+                    <div class="container-display">
+
+                        <div class="card card-shadow">
+
+                            <img class='image-responsive' src='../../Images/Nikon.png' alt='product image' />
+
+                            <div class="card-prod-description">
+                                <button class="btn btn-icon like-btn"><i class="fa fa-heart"></i></button>
+                                <h3>Nikon F6</h3>
+                                <p> 35 mm SLR</p>
+                                <div class="product-price">
+                                    <p>Rs. 49000</p>
+                                    <p class="card-text-decoration">Rs. 59000</p>
+                                    <p>10% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn">ADD TO CART</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <pre class="container-snippet">
+                        <code class="language-html ">
+
+    &lt;div class="card card-shadow"&gt;
+        
+    &lt;img class='image-responsive' src='../Photo/2318886985.png' alt='product image'/&gt;
+                    
+        &lt;div class="card-prod-description"&gt;
+            &lt;button class="btn btn-icon like-btn"&gt;&lt;i class="fa fa-heart"&gt;&lt;/i&gt;&lt;/button&gt;
+                &lt;h3>Nikon F6&lt;/h3&gt;
+                &lt;p>	35 mm SLR&lt;/p&gt;
+                &lt;div class="product-price"&gt;
+                    &lt;p>Rs. 49000&lt;/p&gt;
+                    &lt;p class="card-text-decoration"&gt;Rs. 59000&lt;/p&gt;
+                    &lt;p>10% off&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;button class="btn btn-primary card-btn"&gt;ADD TO CART&lt;/button&gt;
+                    
+        &lt;/div&gt;
+                    
+    &lt;/div&gt;
+
+                        </code>
+                    </pre>
+
+                    <div class="border-underline"></div>
+
+                    <div class="component-title">Card With Text OverLay</div>
+                    <div class="component-sub-heading">This is another kind of product card which can be used to signify
+                        cases like product being out of stock. Here we simply add another div with the class
+                        'card-overlay-msg' to the above product card.</div>
+
+                    <div class="container-display">
+
+                        <div class="card card-shadow card-text-overlay">
+
+                            <img class='image-responsive' src='../../Images/Nikon.png' alt='product image' />
+
+
+                            <div class="card-prod-description">
+                                <button class="btn btn-icon like-btn"><i class="fa fa-heart"></i></button>
+                                <h3>Nikon F6</h3>
+                                <p> 35 mm SLR</p>
+                                <div class="product-price">
+                                    <p>Rs. 49000</p>
+                                    <p class="card-text-decoration">Rs. 59000</p>
+                                    <p>10% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn">ADD TO CART</button>
+
+                            </div>
+
+                            <div class="card-overlay-msg">OUT OF STOCK</div>
+
+
+                        </div>
+
+                    </div>
+
+                    <pre class="container-snippet">
+                        <code class="language-html ">
+                            
+    &lt;div class="card card-shadow"&gt;
+        
+    &lt;img class='image-responsive' src='../Photo/2318886985.png' alt='product image'/&gt;
+                                            
+        &lt;div class="card-prod-description"&gt;
+            &lt;button class="btn btn-icon like-btn"&gt;&lt;i class="fa fa-heart"&gt;&lt;/i&gt;&lt;/button&gt;
+                &lt;h3>Nikon F6&lt;/h3&gt;
+                &lt;p>	35 mm SLR&lt;/p&gt;
+                &lt;div class="product-price"&gt;
+                    &lt;p>Rs. 49000&lt;/p&gt;
+                    &lt;p class="card-text-decoration"&gt;Rs. 59000&lt;/p&gt;
+                    &lt;p>10% off&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;button class="btn btn-primary card-btn"&gt;ADD TO CART&lt;/button&gt;
+                                            
+        &lt;/div&gt;
+
+        &lt;div class="card-overlay-msg"&gt;OUT OF STOCK&lt;/div&gt;
+                                            
+    &lt;/div&gt;
+
+
+                        </code>
+                    </pre>
+
+                    <div class="border-underline"></div>
+
+                    <div class="component-title">Card With Badge</div>
+                    <div class="component-sub-heading">This are product cards with badges attached to them like say best
+                        seller or offer badges on the e-commerce websites. in order to achieve you simple need to add
+                        one more class in the product card named 'card-badge' along with the badge div.</div>
+
+                    <div class="container-display">
+
+                        <div class="card card-shadow">
+
+                            <img class='image-responsive' src="../../Images/Nikon.png" alt='product image' />
+
+                            <div class="card-badge">OFFER</div>
+
+                            <div class="card-prod-description">
+                                <button class="btn btn-icon like-btn"><i class="fa fa-heart"></i></button>
+                                <h3>Nikon F6</h3>
+                                <p> 35 mm SLR</p>
+                                <div class="product-price">
+                                    <p>Rs. 49000</p>
+                                    <p class="card-text-decoration">Rs. 59000</p>
+                                    <p>10% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn">ADD TO CART</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <pre class="container-snippet">
+                        <code class="language-html ">
+                            
+    &lt;div class="card card-shadow"&gt;
+        
+    &lt;img class='image-responsive' src='../Photo/2318886985.png' alt='product image'/&gt;
+                            
+    &lt;div class="card-badge"&gt;OFFER&lt;/div&gt;
+                                                                    
+        &lt;div class="card-prod-description"&gt;
+            &lt;button class="btn btn-icon like-btn"&gt;&lt;i class="fa fa-heart"&gt;&lt;/i&gt;&lt;/button&gt;
+                &lt;h3>Nikon F6&lt;/h3&gt;
+                &lt;p>	35 mm SLR&lt;/p&gt;
+                &lt;div class="product-price"&gt;
+                    &lt;p>Rs. 49000&lt;/p&gt;
+                    &lt;p class="card-text-decoration"&gt;Rs. 59000&lt;/p&gt;
+                    &lt;p>10% off&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;button class="btn btn-primary card-btn"&gt;ADD TO CART&lt;/button&gt;
+                                                                    
+        &lt;/div&gt;
+                                                                    
+    &lt;/div&gt;
+
+                        </code>
+                    </pre>
+
+                    <div class="border-underline"></div>
+
+                    <div class="component-title">Horizontal Card</div>
+                    <div class="component-sub-heading">The horizontal card is completely responsive, as it turns into a
+                        vertical card on devices with small screens. To use this card, we just need to add class name
+                        "card-horizontal".</div>
+
+                    <div class="container-display">
+
+                        <div class="card-horizontal card-shadow">
+
+                            <img class='image-responsive' src='../../Images/Nikon.png' alt='product image' />
+
+                            <div class="card-prod-description">
+                                <h3>Nikon F6</h3>
+                                <p> 35 mm SLR</p>
+                                <div class="product-price">
+                                    <p>Rs. 49000</p>
+                                    <p class="card-text-decoration">Rs. 59000</p>
+                                    <p>10% off</p>
+                                </div>
+                                <button class="btn btn-primary card-btn">Add To Cart</button>
+                                <button class="btn btn-outlined-primary card-btn">Save To Wishlist</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <pre class="container-snippet">
+                        <code class="language-html ">
+                            
+    &lt;div class="card-horizontal card-shadow"&gt;
+        
+    &lt;img class='image-responsive' src='../Photo/2318886985.png' alt='product image'/&gt;
+                                                                    
+        &lt;div class="card-prod-description"&gt;
+            &lt;h3>Nikon F6&lt;/h3&gt;
+            &lt;p>	35 mm SLR&lt;/p&gt;
+            &lt;div class="product-price"&gt;
+                &lt;p>Rs. 49000&lt;/p&gt;
+                &lt;p class="card-text-decoration"&gt;Rs. 59000&lt;/p&gt;
+                &lt;p>10% off&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;button class="btn btn-primary card-btn"&gt;ADD TO CART&lt;/button&gt;
+        &lt;button class="btn btn-outlined-primary card-btn"&gt;Save To Wishlist&lt;/button&gt;
+                                                                    
+    &lt;/div&gt;
+                                                                    
+    &lt;/div&gt;
+
+                        </code>
+                    </pre>
+
+
+
+                    <div class="footer-action-button">
+                        <button class="action-button"><a class="footer-floating-btn" href="../Badge/Badge.html"><i
+                                    class="fa fa-arrow-left" aria-hidden="true"></i>
+                            </a>
+                        </button>
+
+                        <button class="action-button"><a class="footer-floating-btn" href="../Card/Card.html"><i
+                                    class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </a></button>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>

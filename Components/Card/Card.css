@@ -1,0 +1,121 @@
+
+.card{
+    background-color: var(--whiteSmoke);
+    max-width: 20rem;
+    padding: 1rem;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer; 
+
+}
+
+.card-dismiss-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-close{
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.card-shadow{
+    box-shadow: 0px 0px 0.5rem var(--lightBlue);
+}
+
+.card-image{
+    width: 90%;
+    height: auto;
+}
+
+
+
+.card-prod-description{
+    position: relative;
+    line-height: 6px;
+    padding: 0px 1rem;
+}
+
+
+.like-btn{
+    position: absolute;
+    top: -8%;
+    left: 85%;
+    font-size: large;
+    color: var(--danger);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 var(--whiteSmoke);
+}
+
+.like-btn:hover{
+    box-shadow: 0 8px 16px 0 var(--danger);
+}
+
+.product-price{
+    display: flex;
+    flex-wrap: wrap;
+    gap:0.5rem;
+    flex-direction: row;
+}
+
+.card-btn{
+    width:100%;
+    margin:0.5rem 0;
+}
+
+.card-text-decoration{
+    text-decoration: line-through;
+}
+
+.card-badge{
+    position:absolute;
+    top:7%;
+    left:0;
+    padding: 2.5px;
+    border: 0px 5px 5px 0;
+    background-color: var(--primary);
+    color:var(--white);
+
+}
+
+.card-text-overlay{
+    position: relative;
+}
+
+.card-overlay-msg{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 70%;
+    background-color: rgb(2, 2, 2);
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-horizontal{
+ 
+    background-color: var(--whiteSmoke);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 35rem;
+    padding: 1rem 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 799px) {
+    .card-horizontal{
+        flex-direction: column;
+        max-width: 350px;
+    }
+
+  }
