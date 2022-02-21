@@ -13,6 +13,11 @@
     width: 60%;
 }
 
+.landing-page-contents p{
+    font-weight: 500;
+    font-size:1rem;
+}
+
 .landing-page-title{
     color: var(--primary);
 }
