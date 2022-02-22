@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/Images-Ecom/rr-logo.png" height="100" width="100" alt="Robyn Reads Logo"/>
+  <img src="Images/robynLogo.png" height="100" width="100" alt="Robyn Reads Logo"/>
   
 # [Robyn UI](https://robyn-ui.netlify.app/)
 
