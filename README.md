@@ -1,7 +1,8 @@
 <div align="center">
-  <img src="/Images/robynLogo.png" height="100" width="100" alt="Robyn logo"/>
+  <img src="/Images-Ecom/rr-logo.png" height="100" width="100" alt="Robyn Reads Logo"/>
   
-# ROBYN-UI
+# [Robyn UI](https://robyn-ui.netlify.app/)
+
 </div>
 
 ## **Table of contents**
